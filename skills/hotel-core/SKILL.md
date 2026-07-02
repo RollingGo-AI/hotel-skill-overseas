@@ -204,7 +204,7 @@ rgg search-hotels \
 🏨 {Hotel Name}
 🖼️ ![{Hotel Name}]({imageUrl})
 ⭐ {Star Rating} Stars  📍 {Distance}m from {Search Location}
-💰 Reference Price ¥{Lowest Price}/night
+💰 Reference Price {Currency} {Lowest Price}/night
 🏷️ {Tag 1} · {Tag 2} · {Tag 3}
 🔗 [View Details & Book]({bookingUrl})
 ```
@@ -228,7 +228,7 @@ rgg hotel-detail \
 
 ```
 🛏️ {Room Type Name} ({Bed Type Description})
-💰 Total Price ¥{totalPrice} (¥{Average Price}/night)  {inventoryCount} rooms left
+💰 Total Price {Currency} {totalPrice} ({Currency} {Average Price}/night)  {inventoryCount} rooms left
 📋 Cancellation Policy: {Cancellation Policy Description}
 ```
 
@@ -268,7 +268,7 @@ Confirmation No: **{orderNo}**
 Hotel: {Hotel Name}
 Room Type: {Room Type Name}
 Check-in: {Check-in Date} | Check-out: {Check-out Date}
-Total Price: ¥{Price}
+Total Price: {Currency} {Price}
 📋 Cancellation Policy: {Cancellation Policy Description}
 💳 Please complete payment within 30 minutes: {Payment Link}
 ```
