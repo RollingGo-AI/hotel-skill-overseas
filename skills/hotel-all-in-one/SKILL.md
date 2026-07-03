@@ -1,6 +1,6 @@
 ---
 name: hotel-all-in-one
-description: RollingGo Hotel Comprehensive Assistant (Booking + Price Monitoring). Handles global hotel search, room type pricing, booking creation, order inquiry, and smart price drop monitoring tasks. Supports intent collection, state parsing, and generating structured watch requests for host agents to schedule. Triggers: Find a hotel, book a hotel, hotel recommendation, check prices, price drop, monitor prices, book a room, order inquiry.
+description: 'RollingGo Hotel Comprehensive Assistant (Booking + Price Monitoring). Handles global hotel search, room type pricing, booking creation, order inquiry, and smart price drop monitoring tasks. Supports intent collection, state parsing, and generating structured watch requests for host agents to schedule. Triggers: Find a hotel, book a hotel, hotel recommendation, check prices, price drop, monitor prices, book a room, order inquiry.'
 metadata:
   {
     "openclaw": {

@@ -1,6 +1,6 @@
 ---
 name: hotel-core
-description: RollingGo Hotel Search & Booking Assistant. Implements the full hotel booking workflow by calling RollingGo hotel APIs. Supported scenarios: ① Search hotels by city, attraction, metro, airport, etc. ② Filter by star rating, budget, tags (pool, breakfast, family, pet-friendly) ③ Query real-time room types and prices for specific hotels ④ Compare multiple hotels ⑤ Guide users to complete booking. Triggers: Find a hotel, book a hotel, search hotels, hotel recommendation, hotel queries, nearby hotels, five-star hotels, homestays, resorts, check prices, check room types, check-in, where to stay, accommodation, rollinggo, travel accommodation, business trip accommodation, family hotels, hotels with a pool, hotels with breakfast.
+description: 'RollingGo Hotel Search & Booking Assistant. Implements the full hotel booking workflow by calling RollingGo hotel APIs. Supported scenarios: ① Search hotels by city, attraction, metro, airport, etc. ② Filter by star rating, budget, tags (pool, breakfast, family, pet-friendly) ③ Query real-time room types and prices for specific hotels ④ Compare multiple hotels ⑤ Guide users to complete booking. Triggers: Find a hotel, book a hotel, search hotels, hotel recommendation, hotel queries, nearby hotels, five-star hotels, homestays, resorts, check prices, check room types, check-in, where to stay, accommodation, rollinggo, travel accommodation, business trip accommodation, family hotels, hotels with a pool, hotels with breakfast.'
 metadata:
   {
     "openclaw": {
