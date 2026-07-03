@@ -38,8 +38,8 @@ Search for hotel lists based on location, dates, tags, and other conditions.
 |------|------|------|------|
 | --origin-query | string | ✅ | User's original query string |
 | --place | string | ✅ | Location name (city, attraction, hotel name, etc.) |
-| --place-type | string | ✅ | Location type: 城市/机场/景点/火车站/地铁站/酒店/区/县/详细地址 |
-| --country-code | string | ❌ | Country code (e.g., CN) |
+| --place-type | string | ✅ | Location type: city, airport, point_of_interest, train_station, subway_station, hotel, district/county, detailed address |
+| --country-code | string | ❌ | Country code (e.g., US) |
 | --size | integer | ❌ | Return quantity, default 5, max 20 |
 | --check-in-date | string | ❌ | Check-in date YYYY-MM-DD |
 | --stay-nights | integer | ❌ | Stay nights, default 1 |
@@ -96,8 +96,8 @@ Query all available room types and real-time prices for a single hotel.
 | --adult-count | integer | ❌ | Adult count per room, default 2 |
 | --child-count | integer | ❌ | Child count per room, default 0 |
 | --child-age | string | ❌ | Child ages (comma separated) |
-| --country-code | string | ❌ | Country code, default CN |
-| --currency | string | ❌ | Currency, default CNY |
+| --country-code | string | ❌ | Country code, default US |
+| --currency | string | ❌ | Currency, default USD |
 
 **Output**:
 
@@ -149,8 +149,8 @@ Lock the real-time price of the selected room type and obtain a booking referenc
 | --adults | integer | ✅ | Adult count per room |
 | --children | integer | ❌ | Child count per room |
 | --child-age | string | ❌ | Child ages (comma separated) |
-| --nationality | string | ❌ | Nationality code, default CN |
-| --currency | string | ❌ | Currency, default CNY |
+| --nationality | string | ❌ | Nationality code, default US |
+| --currency | string | ❌ | Currency, default USD |
 
 **Output**:
 

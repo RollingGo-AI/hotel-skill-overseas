@@ -152,14 +152,14 @@ rgg search-hotels \
 
 | User Description | --place-type |
 |---------|-------------|
-| City name (Beijing, Sanya, Bangkok) | 城市 |
-| Airport (Capital Airport, Pudong) | 机场 |
-| Attraction (Disney, Universal Studios) | 景点 |
-| Train station (Hongqiao Station, Beijing South Station) | 火车站 |
-| Metro station | 地铁站 |
-| Hotel name | 酒店 |
-| District/County/Business Area (Yalong Bay, Chaoyang District) | 区/县 |
-| Specific street address | 详细地址 |
+| City name (Beijing, Sanya, Bangkok) | city |
+| Airport (Capital Airport, Pudong) | airport |
+| Attraction (Disney, Universal Studios) | point_of_interest |
+| Train station (Hongqiao Station, Beijing South Station) | train_station |
+| Metro station | subway_station |
+| Hotel name | hotel |
+| District/County/Business Area (Yalong Bay, Chaoyang District) | district/county |
+| Specific street address | detailed address |
 
 **Search Result Display Template** (one card per hotel):
 *(CRITICAL: You MUST render the `imageUrl` using standard Markdown image syntax `![alt](url)`. Do NOT use HTML `<img>` tags and Do NOT output raw URL strings, as the host platform only supports standard Markdown images.)*
