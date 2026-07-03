@@ -199,15 +199,15 @@ rgg search-hotels \
 | Specific street address | detailed address |
 
 **Search Result Display Template** (one card per hotel):
-*(CRITICAL: You MUST render the `imageUrl` using standard Markdown image syntax `![alt](url)`. Do NOT use HTML `<img>` tags and Do NOT output raw URL strings, as the host platform only supports standard Markdown images.)*
+*(CRITICAL: You MUST render the `imageUrl` using standard Markdown image syntax `![alt](url)` and place the image at the end of the template. If `imageUrl` contains unencoded spaces, you must manually replace spaces with `%20`, or wrap the entire URL in angle brackets like `![alt](<url>)` to ensure proper markdown rendering. Do NOT use HTML `<img>` tags and Do NOT output raw URL strings.)*
 
 ```markdown
 🏨 {Hotel Name}
-![{Hotel Name}]({imageUrl})
 ⭐ {Star Rating} Stars  *(Show if distanceInMeters exists: 📍 {distanceInMeters}m from {Search Location})*
 💰 Reference Price {Currency} {Lowest Price}/night
 🏷️ {Tag 1} · {Tag 2} · {Tag 3}
 🔗 [View Details & Book]({bookingUrl})
+![{Hotel Name}]({imageUrl})
 ```
 
 After returning 3-5 hotels, ask the user: "Which hotel's detailed room types and prices would you like to know?"
