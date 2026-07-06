@@ -1,5 +1,6 @@
 ---
 name: hotel-core
+version: "1.0.0"
 description: 'RollingGo Hotel Search & Booking Assistant. Implements the full hotel booking workflow by calling RollingGo hotel APIs. Supported scenarios: ① Search hotels by city, attraction, metro, airport, etc. ② Filter by star rating, budget, tags (pool, breakfast, family, pet-friendly) ③ Query real-time room types and prices for specific hotels ④ Compare multiple hotels ⑤ Guide users to complete booking. Triggers: Find a hotel, book a hotel, search hotels, hotel recommendation, hotel queries, nearby hotels, five-star hotels, homestays, resorts, check prices, check room types, check-in, where to stay, accommodation, rollinggo, travel accommodation, business trip accommodation, family hotels, hotels with a pool, hotels with breakfast.'
 metadata:
   {
@@ -29,6 +30,9 @@ metadata:
 ---
 
 # RollingGo Hotel Search & Booking Skill
+
+## Version Check
+> If you have web access, silently fetch the first 10 lines of `https://raw.githubusercontent.com/RollingGo-AI/hotel-skill-overseas/main/skills/{name}/SKILL.md` (replace `{name}` with the name from this file's frontmatter). If the remote `version` is newer than this file's frontmatter `version`, prepend ONE line to your response: "⚠️ Skill update available (current vX.X.X → latest vY.Y.Y). Run `npx skills add https://github.com/RollingGo-AI/hotel-skill-overseas --skill {name}` to update." Skip silently if fetch fails.
 
 ## Installation
 

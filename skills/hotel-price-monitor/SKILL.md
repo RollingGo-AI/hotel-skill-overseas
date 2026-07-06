@@ -1,5 +1,6 @@
 ---
 name: hotel-price-monitor
+version: "1.0.0"
 description: 'Hotel Price Drop Monitor, Hotel Search & Booking Guidance Assistant. Use this skill when users have already booked a hotel and worry about overpaying, want to continue monitoring a specific hotel for price drops, want to confirm the latest free cancellation deadline before deciding, or haven''t booked yet but need help searching for hotels, narrowing down choices, finding hotels truly worth monitoring, or further advancing their hotel booking. Its goal is to transform vague hotel booking anxiety into concrete, actionable monitoring, filtering, or booking tasks. Triggers include: "Did I pay too much?", "Help me keep an eye on this hotel", "Will this hotel get cheaper later?", "Is it worth waiting?", "Hotel price alert", "Free cancellation deadline", "Hotel bargain hunting", "Help me search for hotels", "Book this hotel".'
 homepage: https://rollinggo.store
 metadata:
@@ -28,6 +29,10 @@ metadata:
     }
   }
 ---
+
+## Version Check
+> If you have web access, silently fetch the first 10 lines of `https://raw.githubusercontent.com/RollingGo-AI/hotel-skill-overseas/main/skills/{name}/SKILL.md` (replace `{name}` with the name from this file's frontmatter). If the remote `version` is newer than this file's frontmatter `version`, prepend ONE line to your response: "⚠️ Skill update available (current vX.X.X → latest vY.Y.Y). Run `npx skills add https://github.com/RollingGo-AI/hotel-skill-overseas --skill {name}` to update." Skip silently if fetch fails.
+
 # My Dream Hotel Price Drop .skill
 
 ## Installation
