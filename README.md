@@ -67,7 +67,7 @@ Install this skill for me: https://github.com/RollingGo-AI/hotel-skill-global
 ```
 Choose this installation method if you prefer a hassle-free, fully visual workflow.
 
-### Method 2:Via npx skills
+### Method 2: Via npx skills
 Automatically compatible with Cursor, Claude Code, Windsurf, and 40+ other agents.Use this installation method for development & operations scenarios requiring precise module control and frequent switching between multiple tools.
 
 ```bash
@@ -84,7 +84,7 @@ The CLI auto-detects the agent installed on your system. You can also explicitly
 npx skills add https://github.com/RollingGo-AI/hotel-skill-global --agent cursor
 ```
 
-### Manual Clone/Copy
+### Method 3: Manual Clone/Copy
 
 Clone this repository and drop the `skills/hotel-core/` folder directly into your Agent's respective skills directory:
 
@@ -96,7 +96,7 @@ Clone this repository and drop the `skills/hotel-core/` folder directly into you
 | Windsurf | `~/.windsurf/skills/` |
 | Google Antigravity | `~/.gemini/antigravity/skills/` |
 
-### Core Capabilities List
+### 📕Core Capabilities List
 | Command | Description |
 |-------|-------------|
 | **`rgg login`** | OAuth 2.1 PKCE passwordless secure authorization |
@@ -222,13 +222,13 @@ Terminal output:
       "ratePlanName": "Standard Twin Room",
       "bedType": 5,
       "bedTypeDescription": "2 Single Beds",
-      "currency": "CNY",
-      "totalPrice": 352,
+      "currency": "USD",
+      "totalPrice": 52,
       "isOnRequest": false,
       "cancellationPolicies": [
         {
           "fromDate": "2026-06-19T00:00:00+08:00",
-          "amount": 352
+          "amount": 52
         }
       ]
     }
@@ -244,7 +244,7 @@ The AI agent presents the formatted details:
 AI Assistant: Here are the room details for the Grand New Century Hotel Fuyang:
 
 🛏️ Standard Twin Room (2 Single Beds)
-💰 Total Price: $352 (CNY) ($352/night)  Availability: Ample
+💰 Total Price: $52 (USD) ($52/night)  Availability: Ample
 📋 Cancellation Policy: Cancellations after June 19, 2026, incur a full-amount penalty (No free cancellation).
 
 Let me know if you would like to book this room type.
@@ -291,7 +291,7 @@ Terminal output:
         "cancellationPolicyList": [
           {
             "fromDate": "2026-06-19T00:00:00+08:00",
-            "amount": 352
+            "amount": 52
           }
         ]
       }
@@ -308,8 +308,8 @@ AI Assistant: ✅ Price and room availability have been locked!
 Hotel: Grand New Century Hotel Fuyang
 Room: Standard Twin Room
 Dates: 2026-06-20 → 2026-06-21 (1 Night)
-Total Price: $352 CNY (Taxes included)
-Cancellation Policy: Free cancellation before June 19, 2026. After this date, a penalty of $352 applies.
+Total Price: $52 USD(Taxes included)
+Cancellation Policy: Free cancellation before June 19, 2026. After this date, a penalty of $52 applies.
 ⏰ Lock Validity: 30 minutes
 
 Do you confirm this booking? If yes, please provide the guest's name (First Name and Last Name in Pinyin or English).
@@ -353,7 +353,7 @@ Confirmation No: **H178168930177922821**
 Hotel: Grand New Century Hotel Fuyang
 Room: Standard Twin Room
 Check-in: 2026-06-20 | Check-out: 2026-06-21
-Total Price: $352 CNY
+Total Price: $52 USD
 
 💳 Please click the link below to complete your payment within 30 minutes:
 [Click Here to Complete Payment](https://rollinggo.cn/xxxx)
