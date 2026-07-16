@@ -61,14 +61,9 @@ No more manual price comparisons or worrying about booking too early or too late
 <img width="466" height="203" alt="image" src="https://github.com/user-attachments/assets/2d71ff6a-062c-4499-ba83-0965afcc683b" />
 
 ## ✨ Installation
-### Method 1: Directly Tell Your Agent (Recommended)
-```
-Install this skill for me: https://github.com/RollingGo-AI/hotel-skill-global
-```
-Choose this installation method if you prefer a hassle-free, fully visual workflow.
 
-### Method 2: Via npx skills
-Automatically compatible with Cursor, Claude Code, Windsurf, and 40+ other agents.Use this installation method for development & operations scenarios requiring precise module control and frequent switching between multiple tools.
+### Method: Via npx skills
+Automatically compatible with Cursor, Claude Code, Windsurf, and 40+ other agents.
 
 ```bash
 # Interactive installation (Recommended, freely select capability modules from the menu)
@@ -84,17 +79,6 @@ The CLI auto-detects the agent installed on your system. You can also explicitly
 npx skills add https://github.com/RollingGo-AI/hotel-skill-global --agent cursor
 ```
 
-### Method 3: Manual Clone/Copy
-
-Clone this repository and drop the `skills/hotel-core/` folder directly into your Agent's respective skills directory:
-
-| Agent | Local Skill Directory |
-|-------|-----------------|
-| Claude Code | `~/.claude/skills/` |
-| Cursor | `~/.cursor/skills/` |
-| OpenAI Codex | `~/.codex/skills/` |
-| Windsurf | `~/.windsurf/skills/` |
-| Google Antigravity | `~/.gemini/antigravity/skills/` |
 
 ### 📕Core Capabilities List
 | Command | Description |
