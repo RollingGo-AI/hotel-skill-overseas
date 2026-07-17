@@ -46,6 +46,8 @@ The RollingGo Hotel Booking Skill handles the entire process for you:
 💴 **Price Monitoring**: Set up 24-hour automatic price tracking and get instant alerts if prices drop.
 
 No more manual price comparisons or worrying about booking too early or too late. Hand over your hotel booking headaches with just one sentence.
+>  **For Chinese** or   users who prefer Alipay payment, please refer to this version: [
+RollingGo-hotel-skill-CN](https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN)
 
 ## ✨ Skill Highlights
 
